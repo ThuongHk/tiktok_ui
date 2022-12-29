@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Sibar from './Sibar';
+import './DeafaultLayout.scss'
 
 const DeafaultLayout = ({ children }) => {
     return (

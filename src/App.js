@@ -12,7 +12,7 @@ function App() {
             let Layout = route.layout || DeafaultLayout;
             let Page = route.component
             return (
-              <Route key={index} path={route.path} element={<Layout><Page /></Layout>} />
+              <Route key={index} path={route.path} element={<Layout><Page/></Layout>} />
             )
           })}
         </Routes>

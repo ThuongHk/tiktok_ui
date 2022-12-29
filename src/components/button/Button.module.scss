@@ -1,0 +1,17 @@
+.btn{
+    font-size: 16px;
+    background-color: #EF2A50;
+    color: white;
+    padding: 4px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-weight: bold;
+ &:hover{
+    background-color: orange;
+ }
+
+}
+.outline{
+    background-color: white;
+}
